@@ -46,3 +46,9 @@ Closes the most recently opened transaction without committing it
 Collapses all open transactions, commits them and garbage collects any deleted
 items
 
+Running the tests
+-----------------
+The tests can be run with the following command:
+
+```npm run test```
+
