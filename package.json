@@ -1,0 +1,17 @@
+{
+  "name": "inmemorydb",
+  "version": "1.0.0",
+  "description": "An in-memory database with transaction support",
+  "main": "dist/inmemdb.js",
+  "scripts": {
+    "start": "ts-node ./index.ts",
+    "test": "ts-node ./tests"
+  },
+  "author": "Ben Elgar",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.0.12",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
